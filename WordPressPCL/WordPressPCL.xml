@@ -799,7 +799,18 @@
             Number of published posts for the term.
             </summary>
             <remarks>
-            Read
+              Read only
+              Context: view, edit
+            </remarks>
+          </member>
+          <member name="P:WordPressPCL.Models.Category.Description">
+            <summary>
+              HTML description of the term.
+            </summary>
+            <remarks>Context: view, edit</remarks>
+          </member>
+          <member name="P:WordPressPCL.Models.Category.Parent">
+            <summary>
             The parent term ID.
             </summary>
             <remarks>Context: view, edit</remarks>
@@ -3879,20 +3890,6 @@
             <returns>Result of checking</returns>
         </member>
         <member name="M:WordPressPCL.WordPressClient.SetJWToken(System.String)">
-            <summary>
-            Sets an existing JWToken
-            </summary>
-            <param name="token"></param>
-        </member>
-        <member name="M:WordPressPCL.WordPressClient.GetToken">
-            <summary>
-            Gets the JWToken from the client
-            </summary>
-            <returns></returns>
-        </member>
-    </members>
-</doc>
-ystem.String)">
             <summary>
             Sets an existing JWToken
             </summary>
